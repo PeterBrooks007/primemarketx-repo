@@ -121,7 +121,7 @@ import {
               textAlign={isMobile ? "center" : "left"}
               variants={FADE_DOWN_ANIMATION_VARIANTS}
             >
-              CHALLENGE THE MARKET WITH MOBIT WEB APP
+              CHALLENGE THE MARKET WITH PRIMEMARKET WEB APP
             </MotionTypography>
   
             <MotionTypography

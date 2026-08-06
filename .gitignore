@@ -64,5 +64,5 @@ Thumbs.db
 *.orig
 
 
-mobitmarket_logins.txt
+logins.txt
 .htaccess

@@ -109,13 +109,13 @@ const depositFund = asyncHandler(async (req, res) => {
               req.user.currency.code
             } with ${method} method`;
 
-            const subjectAdmin = "New Deposit Request - mobitmarket";
+            const subjectAdmin = "New Deposit Request - primemarket";
             const send_to_Admin = process.env.EMAIL_USER;
             const templateAdmin = adminGeneralEmailTemplate(
               "Admin",
               introMessage
             );
-            const reply_toAdmin = "no_reply@mobitmarket.com";
+            const reply_toAdmin = "no_reply@primemarketx.com";
 
             await sendEmail(
               subjectAdmin,
@@ -191,10 +191,10 @@ const requestDepositDetails = asyncHandler(async (req, res) => {
     req.user.currency.code
   }`;
 
-  const subjectAdmin = "New Deposit Request - mobitmarket";
+  const subjectAdmin = "New Deposit Request - primemarket";
   const send_to_Admin = process.env.EMAIL_USER;
   const templateAdmin = adminGeneralEmailTemplate("Admin", introMessage);
-  const reply_toAdmin = "no_reply@mobitmarket.com";
+  const reply_toAdmin = "no_reply@primemarketx.com";
 
   await sendEmail(subjectAdmin, send_to_Admin, templateAdmin, reply_toAdmin);
 
@@ -380,7 +380,7 @@ const approveDepositRequest = asyncHandler(async (req, res) => {
       introMessage = `Your deposit request of ${amount} ${user.currency.code} with ${method} deposit method was NOT APPROVED. Please check your deposit history.`;
     }
 
-    const subject = "Deposit Approval Status - mobitmarket";
+    const subject = "Deposit Approval Status - primemarket";
     const send_to = user.email;
     const template = userGeneralEmailTemplate(
       `${user.firstname} ${user.lastname}`,

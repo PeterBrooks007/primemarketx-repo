@@ -62,10 +62,11 @@ const AuthMobileHeader = ({ writeUp, buttonText, link, accountSetup }) => {
             navigate("/");
           }}
         >
+                                <img src={LogoImg} alt="logo" width={40} />
+
            <Typography variant="h6" fontWeight={"600"}>
-                      Mobitmarket
+                      Primemarket
                       </Typography>
-                      <img src={LogoImg} alt="logo" width={40} />
         </Stack>
         <Stack
           direction={"row"}

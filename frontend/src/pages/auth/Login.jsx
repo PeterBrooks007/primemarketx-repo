@@ -86,7 +86,7 @@ const Login = () => {
       return;
     }
 
-    if (isSuccess && isLoggedIn && user && user?.iskycSetup === true) {
+    if (isSuccess && isLoggedIn && user && user?.iskycSetup === false) {
       navigate("/auth/account-setup");
       dispatch(RESET_AUTH());
       return;
@@ -138,7 +138,7 @@ const Login = () => {
                   textAlign={"center"}
                   pt={2}
                 >
-                  Login with your Mobitmarket Credentials
+                  Login with your Primemarket Credentials
                 </Typography>
                 <Typography
                   variant="subtitle2"

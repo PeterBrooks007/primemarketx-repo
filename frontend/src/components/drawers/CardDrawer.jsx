@@ -474,7 +474,7 @@ const CardDrawer = ({ open, handleClose, handleOpen }) => {
                       <span style={{ color: "#009a4c", fontWeight: 600 }}>
                         Exciting Discounts
                       </span>{" "}
-                      with your Mobitmarket card
+                      with your Primemarket card
                     </Typography>
                   </Stack>
                 </Stack>

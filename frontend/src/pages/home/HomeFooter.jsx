@@ -34,7 +34,7 @@ const theme = useTheme();
       justifyContent={"center"}
       sx={{ borderTop: "0.5px solid darkgrey", padding: "10px" }}
     >
-        (c) Copyright © {new Date().getFullYear()} Mobitmarket, Inc.       
+        (c) Copyright © {new Date().getFullYear()} Primemarket, Inc.       
 
     </Box>
     </>

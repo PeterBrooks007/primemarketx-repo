@@ -285,7 +285,7 @@ const ContactUs = () => {
               <Box sx={{ display: "flex", alignItems: "center", mb: 2 }}>
                 <Envelope size={22} />
                 <Typography variant="body1" sx={{ ml: 2 }}>
-                  support@Mobitmarket.com
+                  support@Primemarketx.com
                 </Typography>
               </Box>
               <Box sx={{ display: "flex", alignItems: "center", mb: 2 }}>
@@ -332,7 +332,7 @@ const ContactUs = () => {
         backgroundColor="black"
         color={"white"}
       >
-        (c) Copyright © {new Date().getFullYear()} Mobitmarket, Inc.
+        (c) Copyright © {new Date().getFullYear()} Primemarket, Inc.
       </Box>
     </>
   );

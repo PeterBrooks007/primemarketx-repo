@@ -101,7 +101,7 @@ const ReferralSystem = () => {
               >
                 <TextField
                   value={
-                    "http://Mobitmarket.com/auth/register"
+                    "http://Primemarketx.com/auth/register"
                   }
                   sx={{ width: `${size.width < 400 ? "170px" : "240px"}` }}
                 />
@@ -119,7 +119,7 @@ const ReferralSystem = () => {
                   sx={{ fontWeight: "bold" }}
                   color="secondary"
                   onClick={() =>
-                    handleCopyReferralLinkMobile("http://Mobitmarket.com/auth/register")
+                    handleCopyReferralLinkMobile("http://Primemarketx.com/auth/register")
                   }
                 >
                   Copy Link
@@ -150,7 +150,7 @@ const ReferralSystem = () => {
           <Stack direction={"row"} spacing={1}>
             <TextField
               value={
-                "http://Mobitmarket.com/auth/register"
+                "http://Primemarketx.com/auth/register"
               }
               sx={{ width: `${size.width < 400 ? "200px" : "250px"}` }}
             />
@@ -168,7 +168,7 @@ const ReferralSystem = () => {
               sx={{ fontWeight: "bold" }}
               color="secondary"
               onClick={() =>
-                handleCopyReferralLink("http://Mobitmarket.com/auth/register")
+                handleCopyReferralLink("http://Primemarketx.com/auth/register")
               }
             >
               Copy Link
@@ -176,7 +176,7 @@ const ReferralSystem = () => {
            </Tooltip>
           </Stack>
           {/* <Typography variant="subtitle2">
-            http://Mobitmarket.com/register
+            http://Primemarketx.com/register
           </Typography> */}
         </Stack>
       </Stack>

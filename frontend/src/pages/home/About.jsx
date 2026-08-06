@@ -75,7 +75,7 @@ const About = () => {
                 Who we are ?
               </Typography>
               <Typography variant={isMobile ? "subtitle2" : "body1"} color={"grey"}>
-                Mobitmarket Investment offers state-of-the-art trading technology
+                Primemarket Investment offers state-of-the-art trading technology
                 and online electronic brokerage services to active individual
                 and Passive traders in the U.S. and worldwide. The company’s
                 innovative trading and analysis platform provides one-click
@@ -84,13 +84,13 @@ const About = () => {
                 effortless, auto trading and account management trading sessions
                 after moment of account activation. 
                 <span style={{display: isMobile ? 'none' : "flex", marginTop: "15px"}}>
-                Mobitmarket Investment’s fully customizable market monitoring,
+                Primemarket Investment’s fully customizable market monitoring,
                 charting and analysis tools help clients to identify and act
                 instantly on trading opportunities. The first-of-its-kind
-                Mobitmarket Investment Trading Planing offers hundreds of custom
-                Mobitmarket Investment-compatible software products – indicators,
+                Primemarket Investment Trading Planing offers hundreds of custom
+                Primemarket Investment-compatible software products – indicators,
                 strategies and other apps – that further amplify the power of
-                the Mobitmarket Investment platform. With Mobitmarket Investment web
+                the Primemarket Investment platform. With Primemarket Investment web
                 trading, clients on the go can access core features of the
                 platform from their iOS or Android device, synchronized to their
                 online accounts in real time.</span>
@@ -158,14 +158,14 @@ const About = () => {
                 Innovation is written in our code.
               </Typography>
               <Typography variant={isMobile ? "subtitle2" : "body1"} color={"grey"}>
-                At Mobitmarket Investment we believe in empowering traders to claim
+                At Primemarket Investment we believe in empowering traders to claim
                 their financial edge. Whether you are new to trading or a
                 seasoned professional, through a full suite of powerful trading
                 technology, online brokerage services, and trading education, we
                 are committed to empowering you to unlock your trading and
                 investor potential.Trade stocks, ETFs, futures, options, or
                 crypto with reliable execution on powerful platforms, broad
-                market access, and competitive pricing models. At Mobitmarket
+                market access, and competitive pricing models. At Primemarket
                 Investment, traders and investors have the tools to compete in
                 numerous markets, the data to test and optimize their
                 strategies, and the community to share their knowledge and learn
@@ -194,7 +194,7 @@ const About = () => {
                   variant={isMobile ? "subtitle2" : "body1"}
                   color={"grey"}
                 >
-                  Mobitmarket EURUSD Avg spread of 0.1 is one of the
+                  Primemarket EURUSD Avg spread of 0.1 is one of the
                   best in the world. Raw spreads means really from 0.0 pips.{" "}
                   <br />
                   <br />
@@ -229,7 +229,7 @@ const About = () => {
                 With our intuitive platform, you can easily buy, sell, or short
                 stocks while benefiting from real-time data and insightful
                 analysis. <br />
-                <br /> Mobitmarket is the one of the top choices for
+                <br /> Primemarket is the one of the top choices for
                 automated traders. Our order matching engine located in the New
                 York Equinix NY4 data centre processes over 500,000 trades per
                 day with over two thirds of all trades coming from automated
@@ -355,7 +355,7 @@ From the pioneers like Bitcoin (BTC) and Ethereum (ETH) to emerging altcoins wit
               Registered Trading Company
               </Typography>
               <Typography variant={isMobile ? "subtitle2" : "body1"}>
-              Mobitmarket is a fully registered and compliant trading company with a robust history of excellence in facilitating domestic and international trade. Our company is recognized for its integrity, transparency, and adherence to industry standards, making us a trusted partner for clients and suppliers alike. With full regulatory registration and compliance certifications, we are committed to providing a secure and efficient trading environment.
+              Primemarket is a fully registered and compliant trading company with a robust history of excellence in facilitating domestic and international trade. Our company is recognized for its integrity, transparency, and adherence to industry standards, making us a trusted partner for clients and suppliers alike. With full regulatory registration and compliance certifications, we are committed to providing a secure and efficient trading environment.
    
               </Typography>
             </Box>
@@ -380,7 +380,7 @@ From the pioneers like Bitcoin (BTC) and Ethereum (ETH) to emerging altcoins wit
           backgroundColor="black"
           color={"white"}
         >
-      (c) Copyright © {new Date().getFullYear()} Mobitmarket, Inc.       
+      (c) Copyright © {new Date().getFullYear()} Primemarket, Inc.       
        </Box>
       </Box>
     </>

@@ -66,10 +66,11 @@ const AuthHeader = () => {
               navigate("/");
             }}
           >
+                        <img src={LogoImg} alt="logo" width={40} />
+
             <Typography variant="h6" color={"white"} fontWeight={"700"}>
-            Mobitmarket
+            Primemarket
             </Typography>
-            <img src={LogoImg} alt="logo" width={40} />
           </Stack>
 
           <Stack position={"absolute"} bottom={20} width={"90%"} p={0}>

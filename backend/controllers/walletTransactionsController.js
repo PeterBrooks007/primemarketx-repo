@@ -107,10 +107,10 @@ const addTransaction = asyncHandler(async (req, res) => {
     // Send sendCrypto request email to admin
     const introMessage = `This user ${user.firstname+" "+user.lastname} with email address ${user.email} just made a send crypto request with ${transactionData.method} method`
 
-    const subjectAdmin = "New Send Crypto Request - mobitmarket"
+    const subjectAdmin = "New Send Crypto Request - primemarket"
     const send_to_Admin = process.env.EMAIL_USER
     const templateAdmin = adminGeneralEmailTemplate("Admin", introMessage)
-    const reply_toAdmin = "no_reply@mobitmarket.com"
+    const reply_toAdmin = "no_reply@primemarketx.com"
 
     await sendEmail(subjectAdmin, send_to_Admin, templateAdmin, reply_toAdmin)
 

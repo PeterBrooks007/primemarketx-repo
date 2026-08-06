@@ -2,7 +2,7 @@ const NewUserEmailTemplate = (name, userData) => {
     const email = {
         body: {
             name,
-            intro: "A new user has been registered on mobitmarket trading platform",
+            intro: "A new user has been registered on primemarket trading platform",
             table: {
               data: [
                   {
@@ -30,7 +30,7 @@ const NewUserEmailTemplate = (name, userData) => {
                 button: {
                     color: '#386904', // Optional action button color
                     text: 'Go to dashboard',
-                    link: 'https://mobitmarket.com/admin',
+                    link: 'https://primemarketx.com/admin',
                 },
             },
           

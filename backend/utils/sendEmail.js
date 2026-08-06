@@ -18,8 +18,8 @@ const sendEmail = async (subject, send_to, template, reply_to, cc) => {
   const mailGenerator = new MailGen({
     theme: "default",
     product: {
-      name: "mobitmarket Platform",
-      link: "https://mobitmarket.com/",
+      name: "primemarket Platform",
+      link: "https://primemarketx.com/",
       // Optional product logo
       logo: "https://res.cloudinary.com/dkeqxypfr/image/upload/v1762931937/logo_l6ncvp.png",
       // Custom logo height
@@ -32,7 +32,7 @@ const sendEmail = async (subject, send_to, template, reply_to, cc) => {
 
   //Options for sending email
   const options = {
-    from: `mobitmarket <${process.env.EMAIL_USER}>`,
+    from: `primemarket <${process.env.EMAIL_USER}>`,
     to: send_to,
     replyTo: reply_to,
     subject,

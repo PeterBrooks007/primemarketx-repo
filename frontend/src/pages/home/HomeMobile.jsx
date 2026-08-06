@@ -116,7 +116,7 @@ const HomeMobile = () => {
               color={"white"}
               fontWeight={900}
             >
-              MobitMarket
+              Primemarket
             </MotionTypography>
           </Stack>
 
@@ -129,7 +129,7 @@ const HomeMobile = () => {
             fontWeight={900}
           >
             CHALLENGE THE MARKET WITH{" "}
-            <span style={{ color: "gold" }}> MOBITMARKET WEB APP </span>
+            <span style={{ color: "gold" }}> PRIMEMARKET WEB APP </span>
           </MotionTypography>
 
           <MotionTypography
@@ -142,7 +142,7 @@ const HomeMobile = () => {
               color: "white",
             }}
           >
-            Join over 26 million users who have already chosen the Mobitmarket
+            Join over 26 million users who have already chosen the Primemarket
             web app for trading.
           </MotionTypography>
 

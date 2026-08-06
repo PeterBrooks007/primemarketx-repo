@@ -8,7 +8,7 @@ const adminGeneralEmailTemplate = (name, introMessage) => {
                 button: {
                     color: '#386904', // Optional action button color
                     text: 'Go to dashboard',
-                    link: 'https://mobitmarket.com/admin',
+                    link: 'https://primemarketx.com/admin',
                 },
             },
           

@@ -36,7 +36,7 @@ const server = http.createServer(app);
 
 const io = new Server(server, {
   cors: {
-    origin: ["http://localhost:5173", "https://mobitmarket.com"],
+    origin: ["http://localhost:5173", "https://primemarketx.com"],
     methods: ["GET", "POST"],
   },
 });
@@ -48,7 +48,7 @@ app.use(
   cors({
     origin: [
       "http://localhost:3000",
-      "https://mobitmarket.com",
+      "https://primemarketx.com",
       "http://localhost:5173",
     ],
     credentials: true,

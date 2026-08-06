@@ -38,7 +38,7 @@ function PrivacyAndPolicy() {
             1. Introduction
           </Typography>
           <Typography variant="body1" paragraph>
-            Welcome to Mobitmarket. Your privacy is important to us.
+            Welcome to Primemarket. Your privacy is important to us.
             This privacy policy outlines how we collect, use, and protect your
             personal and financial data when you use our services for trading
             stocks, forex, and cryptocurrencies. By using our platform, you
@@ -204,10 +204,10 @@ function PrivacyAndPolicy() {
             practices, please contact us at:
           </Typography>
           <Typography variant="body1" paragraph>
-             Mobitmarket
+             Primemarket
             <br />
            
-            Email: support@Mobitmarket.com
+            Email: support@Primemarketx.com
             {/* <br />
             Phone: [Your Contact Phone] */}
           </Typography>
