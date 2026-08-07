@@ -21,7 +21,7 @@ const sendEmail = async (subject, send_to, template, reply_to, cc) => {
       name: "primemarket Platform",
       link: "https://primemarketx.com/",
       // Optional product logo
-      logo: "https://res.cloudinary.com/dkeqxypfr/image/upload/v1762931937/logo_l6ncvp.png",
+      logo: "https://res.cloudinary.com/fnqpa1c7/image/upload/v1786089824/logo_n4ppkx.png",
       // Custom logo height
       logoHeight: "70px",
     },
