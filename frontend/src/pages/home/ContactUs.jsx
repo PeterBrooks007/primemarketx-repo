@@ -297,7 +297,7 @@ const ContactUs = () => {
               <Box sx={{ display: "flex", alignItems: "center" }}>
                 <MapPin size={22} />
                 <Typography variant="body1" sx={{ ml: 2 }}>
-                230 W 56th St APT 56A, New York, NY 10019
+                30 Old Broad St, London EC2N 1HQ, United Kingdom
                 </Typography>
               </Box>
             </Box>
@@ -311,9 +311,10 @@ const ContactUs = () => {
                 overflow: "hidden",
               }}
             >
+
               <iframe
                 title="Company Location"
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3021.8415670117683!2d-73.98502232345108!3d40.76550923433746!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c258f7fb45b06d%3A0xc2fdc038052ddaf9!2sPark%20Imperial!5e0!3m2!1sen!2sus!4v1737252932287!5m2!1sen!2sus"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2482.869811868425!2d-0.08665322307951351!3d51.51560441010365!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48761cad39f7d185%3A0x6b6ad4464a721508!2s30%20Old%20Broad%20St%2C%20London%20EC2N%201HT%2C%20UK!5e0!3m2!1sen!2sng!4v1786152284452!5m2!1sen!2sng"
                 width="100%"
                 height="100%"
                 style={{ border: 0 }}

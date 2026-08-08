@@ -924,7 +924,7 @@ const TradeHistoryOrdersComp = ({ allTradeFiltered }) => {
               >
                 {selectedTraderID?.buyOrSell}
               </Typography>
-              <Typography color={"white"} fontSize={20} fontWeight={600}>
+              <Typography color={"white"} fontSize={20} fontWeight={600} sx={{textShadow: "0 0 2px black"}}>
                 {selectedTraderID?.longOrShortUnit}
               </Typography>
             </Box>
@@ -959,7 +959,7 @@ const TradeHistoryOrdersComp = ({ allTradeFiltered }) => {
               <Typography color={"lightgray"} fontSize={16} fontWeight={500}>
                 Entry Price
               </Typography>
-              <Typography color={"white"} fontSize={18} fontWeight={500}>
+              <Typography color={"white"} fontSize={18} fontWeight={500} sx={{textShadow: "0 0 2px black"}}>
                 {selectedTraderID?.open}
               </Typography>
             </Box>
@@ -973,7 +973,7 @@ const TradeHistoryOrdersComp = ({ allTradeFiltered }) => {
               <Typography color={"lightgray"} fontSize={16} fontWeight={500}>
                 Last Price:
               </Typography>
-              <Typography color={"white"} fontSize={18} fontWeight={500}>
+              <Typography color={"white"} fontSize={18} fontWeight={500} sx={{textShadow: "0 0 8px black"}}>
                 {selectedTraderID?.close}
               </Typography>
             </Box>
