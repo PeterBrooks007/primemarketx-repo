@@ -26,7 +26,7 @@ import { upgradeAccount } from "../redux/features/auth/authSlice";
 const accounts = [
   {
     title: "BRONZE ACCOUNT",
-    deposit: "Minimum Deposit $1,000",
+    deposit: "Minimum Deposit $1 - $24999",
     features: [
       "Spreads from 3.3 pips",
       "Leverage 1:500",
@@ -40,7 +40,7 @@ const accounts = [
   },
   {
     title: "SILVER ACCOUNT",
-    deposit: "Minimum Deposit $5,000",
+    deposit: "Minimum Deposit $25,000 - $49999",
     features: [
       "Spreads from 2.2 pips",
       "Leverage 1:700",
@@ -54,7 +54,7 @@ const accounts = [
   },
   {
     title: "GOLD ACCOUNT",
-    deposit: "Minimum Deposit $15,000",
+    deposit: "Minimum Deposit $50,000 - $74999",
     features: [
       "Spreads from 1.5 pips",
       "Leverage 1:1000",
@@ -68,7 +68,7 @@ const accounts = [
   },
   {
     title: "DIAMOND ACCOUNT",
-    deposit: "Minimum Deposit $30,000",
+    deposit: "Minimum Deposit $75,000 $99999",
     features: [
       "Spreads from 1.0 pips",
       "Leverage 1:3000",
@@ -81,8 +81,8 @@ const accounts = [
     href: "/auth/register",
   },
   {
-    title: "PEARL ACCOUNT",
-    deposit: "Minimum Deposit $50,000",
+    title: "VIP ACCOUNT",
+    deposit: "Minimum Deposit $100,000",
     features: [
       "Spreads from 0.5 pips",
       "Leverage 1:5000",
@@ -333,7 +333,7 @@ export default function PackagePlans({ type }) {
                     <MenuItem value={"SILVER"}>SILVER PACKAGE</MenuItem>
                     <MenuItem value={"GOLD"}>GOLD PACKAGE</MenuItem>
                     <MenuItem value={"DIAMOND"}>DIAMOND PACKAGE</MenuItem>
-                    <MenuItem value={"PEARL"}>PEARL PACKAGE</MenuItem>
+                    <MenuItem value={"VIP"}>VIP PACKAGE</MenuItem>
                   </Select>
                 </Stack>
 

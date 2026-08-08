@@ -972,9 +972,9 @@ const LimitStopTrade = ({
                         backgroundColor: "darkgreen",
                       },
                     }}
-                    onClick={() => setBuyOrSell("Buy")}
+                    onClick={() => setBuyOrSell("Long")}
                   >
-                    Buy
+                    Long
                   </Button>
                   <Button
                     type="submit"
@@ -991,9 +991,9 @@ const LimitStopTrade = ({
                         backgroundColor: "darkred",
                       },
                     }}
-                    onClick={() => setBuyOrSell("Sell")}
+                    onClick={() => setBuyOrSell("Short")}
                   >
-                    Sell
+                    Short
                   </Button>
                 </Stack>
               </form>

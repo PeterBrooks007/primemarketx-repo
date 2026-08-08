@@ -237,7 +237,7 @@ const Register = () => {
               </Stack>
 
               <Stack spacing={2}>
-                <Button
+                {/* <Button
                   variant="outlined"
                   fullWidth
                   sx={{
@@ -252,7 +252,7 @@ const Register = () => {
                   Sign up with Google
                 </Button>
 
-                <Divider>or</Divider>
+                <Divider>or</Divider> */}
 
                 <Formik
                   onSubmit={registerUser}

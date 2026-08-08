@@ -150,7 +150,7 @@ const Login = () => {
               </Stack>
 
               <Stack spacing={2}>
-                <Button
+                {/* <Button
                   variant="outlined"
                   fullWidth
                   sx={{
@@ -170,7 +170,7 @@ const Login = () => {
                   &nbsp; Sign in with Google
                 </Button>
 
-                <Divider>or</Divider>
+                <Divider>or</Divider> */}
 
                 <form onSubmit={loginUser}>
                   <Stack spacing={2}>

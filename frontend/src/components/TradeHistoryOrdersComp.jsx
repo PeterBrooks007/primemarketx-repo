@@ -867,7 +867,7 @@ const TradeHistoryOrdersComp = ({ allTradeFiltered }) => {
             left: "50%",
             transform: "translate(-50%, -50%)",
             width: size.width < 680 ? "90%" : 450,
-            height: size.width < 680 ? 450 : 500,
+            height: size.width < 680 ? 400 : 400,
             bgcolor: "background.paper",
             border: "1px solid gray",
             boxShadow: 24,
@@ -890,10 +890,10 @@ const TradeHistoryOrdersComp = ({ allTradeFiltered }) => {
 
           {/* Content */}
           <Box sx={{ position: "relative", zIndex: 2, p: 2 }}>
-            {/* <img src={logo} alt="logo" width={180} height={45} /> */}
+            <img src={logo} alt="logo" width={180} height={45} />
 
-            <Typography color={"white"} mt={2} fontSize={24} fontWeight={600}>
-              {selectedTraderID?.symbols} Perpetual
+            <Typography color={"white"} mt={6} fontSize={24} fontWeight={600}>
+              ROI
             </Typography>
 
             <Box
@@ -902,16 +902,16 @@ const TradeHistoryOrdersComp = ({ allTradeFiltered }) => {
               alignItems={"center"}
               mt={0}
             >
-              {/* <Typography
+              <Typography
                 color={"white"}
                 fontSize={20}
                 fontWeight={600}
                 sx={{ borderRight: "0.5px solid gray" }}
-                mr={3}
-                pr={3}
+                mr={1.5}
+                pr={1.5}
               >
                 {selectedTraderID?.symbols}
-              </Typography> */}
+              </Typography>
               <Typography
                 color={
                   selectedTraderID?.buyOrSell === "Long" ? "springgreen" : "red"
@@ -925,25 +925,25 @@ const TradeHistoryOrdersComp = ({ allTradeFiltered }) => {
                 {selectedTraderID?.buyOrSell}
               </Typography>
               <Typography color={"white"} fontSize={20} fontWeight={600}>
-                {selectedTraderID?.leverage}
+                {selectedTraderID?.longOrShortUnit}
               </Typography>
             </Box>
 
             <Stack>
-              <Typography
+              {/* <Typography
                 color={"lightgray"}
                 fontSize={20}
                 fontWeight={500}
                 mt={4}
               >
                 ROI
-              </Typography>
+              </Typography> */}
 
               <Typography
                 color={"springgreen"}
-                mt={-1}
-                fontSize={38}
-                fontWeight={800}
+                mt={1}
+                fontSize={44}
+                fontWeight={600}
               >
                 {selectedTraderID?.roi}
               </Typography>
@@ -951,29 +951,29 @@ const TradeHistoryOrdersComp = ({ allTradeFiltered }) => {
 
             <Box
               display={"flex"}
-              flexDirection={"column"}
-              alignItems={"start"}
-              mt={2}
-              gap={0}
+              flexDirection={"row"}
+              alignItems={"center"}
+              mt={1}
+              gap={1}
             >
-              <Typography color={"gray"} fontSize={16} fontWeight={500}>
-                Average Entry Price
+              <Typography color={"lightgray"} fontSize={16} fontWeight={500}>
+                Entry Price
               </Typography>
-              <Typography color={"white"} fontSize={16} fontWeight={500}>
+              <Typography color={"white"} fontSize={18} fontWeight={500}>
                 {selectedTraderID?.open}
               </Typography>
             </Box>
             <Box
               display={"flex"}
-              flexDirection={"column"}
-              alignItems={"start"}
-              gap={0}
-              mt={1.5}
+              flexDirection={"row"}
+              alignItems={"center"}
+              gap={1.5}
+              mt={0.5}
             >
-              <Typography color={"gray"} fontSize={16} fontWeight={500}>
-                Current Price:
+              <Typography color={"lightgray"} fontSize={16} fontWeight={500}>
+                Last Price:
               </Typography>
-              <Typography color={"white"} fontSize={16} fontWeight={500}>
+              <Typography color={"white"} fontSize={18} fontWeight={500}>
                 {selectedTraderID?.close}
               </Typography>
             </Box>

@@ -256,7 +256,7 @@ const Trades = () => {
                       }}
                     />
                   ) : (
-                    "Buy"
+                    "Long"
                   )}
                 </Button>
                 <Button
@@ -543,7 +543,7 @@ const Trades = () => {
                       }}
                     />
                   ) : (
-                    "Buy"
+                    "Long"
                   )}
                 </Button>
                 <Button
@@ -889,7 +889,7 @@ const Trades = () => {
                                 scope="row"
                                 sx={{
                                   color:
-                                    trade?.buyOrSell === "Buy"
+                                    trade?.buyOrSell === "Long"
                                       ? theme.palette.mode === "light"
                                         ? "#009e4a"
                                         : "rgba(0, 255, 127, 0.8)"
