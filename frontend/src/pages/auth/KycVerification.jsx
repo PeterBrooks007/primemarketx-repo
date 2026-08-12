@@ -640,7 +640,8 @@ const KycVerification = ({
                             <MenuItem value={"BRONZE"}>BRONZE</MenuItem>
                             <MenuItem value={"SILVER"}>SILVER</MenuItem>
                             <MenuItem value={"GOLD"}>GOLD</MenuItem>
-                            <MenuItem value={"PLATINUM"}>PLATINUM</MenuItem>
+                            <MenuItem value={"DIAMOND"}>DIAMOND</MenuItem>
+                            <MenuItem value={"VIP"}>VIP</MenuItem>
                           </Select>
 
                           {touched.package && errors.package && (
