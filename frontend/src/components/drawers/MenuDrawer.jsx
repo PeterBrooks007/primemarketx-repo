@@ -42,6 +42,7 @@ const navItems = [
     icon: <ShieldCheck size={22} />,
   },
   { text: "Terms & Conditions", link: "/terms", icon: <FileText size={22} /> },
+  { text: "Faqs", link: "/faqs", icon: <Info size={22} /> },
   {
     text: "Contact Us",
     link: "/contact-us",

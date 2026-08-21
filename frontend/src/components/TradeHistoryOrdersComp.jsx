@@ -55,6 +55,7 @@ import {
 
 import backgroundImage from "../assets/bg-9.png";
 import logo from "../assets/logo.png"; // <-- make sure this path is correct
+import uruser from "../assets/uruser.png"; // <-- make sure this path is correct
 import UseWindowSize from "../hooks/UseWindowSize";
 
 export const CountdownTimer = ({ createdAt, expireTime, onExpire, trades }) => {
@@ -267,8 +268,8 @@ export const CountdownTimer = ({ createdAt, expireTime, onExpire, trades }) => {
               ? "#009e4a"
               : "rgba(0, 255, 127, 0.8)"
             : theme.palette.mode === "light"
-            ? "#009e4a"
-            : "rgba(0, 255, 127, 0.8)",
+              ? "#009e4a"
+              : "rgba(0, 255, 127, 0.8)",
         fontWeight: "600",
       }}
     >
@@ -406,7 +407,7 @@ const TradeHistoryOrdersComp = ({ allTradeFiltered }) => {
 
   allTradeFiltered = Array.isArray(allTradeFiltered)
     ? [...allTradeFiltered].sort(
-        (a, b) => new Date(b.createdAt) - new Date(a.createdAt)
+        (a, b) => new Date(b.createdAt) - new Date(a.createdAt),
       )
     : [];
 
@@ -720,10 +721,10 @@ const TradeHistoryOrdersComp = ({ allTradeFiltered }) => {
                         !expiredTrades[trades?._id]
                           ? "orange"
                           : trades?.status?.toLowerCase() === "won"
-                          ? theme.palette.mode === "light"
-                            ? "#009e4a"
-                            : "rgba(0, 255, 127, 0.8)"
-                          : "red"
+                            ? theme.palette.mode === "light"
+                              ? "#009e4a"
+                              : "rgba(0, 255, 127, 0.8)"
+                            : "red"
                       }
                     >
                       {!expiredTrades[trades?._id] ||
@@ -892,15 +893,16 @@ const TradeHistoryOrdersComp = ({ allTradeFiltered }) => {
           <Box sx={{ position: "relative", zIndex: 2, p: 2 }}>
             <img src={logo} alt="logo" width={180} height={45} />
 
-            <Typography color={"white"} mt={6} fontSize={24} fontWeight={600}>
-              ROI
-            </Typography>
+            <Stack direction={"row"} spacing={1} alignItems={"center"} mt={2}>
+                <img src={uruser} alt="logo" width={25} height={25} />
+              <Typography>{user?.firstname + " " + user?.lastname}</Typography>
+            </Stack>
 
             <Box
               display={"flex"}
               justifyContent={"start"}
               alignItems={"center"}
-              mt={0}
+              mt={3}
             >
               <Typography
                 color={"white"}
@@ -924,10 +926,19 @@ const TradeHistoryOrdersComp = ({ allTradeFiltered }) => {
               >
                 {selectedTraderID?.buyOrSell}
               </Typography>
-              <Typography color={"white"} fontSize={20} fontWeight={600} sx={{textShadow: "0 0 2px black"}}>
+              <Typography
+                color={"white"}
+                fontSize={20}
+                fontWeight={600}
+                sx={{ textShadow: "0 0 2px black" }}
+              >
                 {selectedTraderID?.longOrShortUnit}
               </Typography>
             </Box>
+
+            <Typography color={"white"} mt={2} fontSize={24} fontWeight={600}>
+              ROI
+            </Typography>
 
             <Stack>
               {/* <Typography
@@ -941,7 +952,7 @@ const TradeHistoryOrdersComp = ({ allTradeFiltered }) => {
 
               <Typography
                 color={"springgreen"}
-                mt={1}
+                mt={0}
                 fontSize={44}
                 fontWeight={600}
               >
@@ -959,7 +970,12 @@ const TradeHistoryOrdersComp = ({ allTradeFiltered }) => {
               <Typography color={"lightgray"} fontSize={16} fontWeight={500}>
                 Entry Price
               </Typography>
-              <Typography color={"white"} fontSize={18} fontWeight={500} sx={{textShadow: "0 0 2px black"}}>
+              <Typography
+                color={"white"}
+                fontSize={18}
+                fontWeight={500}
+                sx={{ textShadow: "0 0 2px black" }}
+              >
                 {selectedTraderID?.open}
               </Typography>
             </Box>
@@ -973,7 +989,12 @@ const TradeHistoryOrdersComp = ({ allTradeFiltered }) => {
               <Typography color={"lightgray"} fontSize={16} fontWeight={500}>
                 Last Price:
               </Typography>
-              <Typography color={"white"} fontSize={18} fontWeight={500} sx={{textShadow: "0 0 8px black"}}>
+              <Typography
+                color={"white"}
+                fontSize={18}
+                fontWeight={500}
+                sx={{ textShadow: "0 0 8px black" }}
+              >
                 {selectedTraderID?.close}
               </Typography>
             </Box>

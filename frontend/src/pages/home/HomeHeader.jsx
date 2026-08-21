@@ -137,6 +137,17 @@ const HomeHeader = () => {
           </NavLink>
 
           <NavLink
+            to="/faqs"
+            style={({ isActive }) =>
+              isActive
+                ? { color: "springgreen", fontWeight: "400", textDecoration: "none" }
+                : { color: "white", textDecoration: "none" }
+            }
+          >
+            Faqs
+          </NavLink>
+
+          <NavLink
             to="/contact-us"
             style={({ isActive }) =>
               isActive

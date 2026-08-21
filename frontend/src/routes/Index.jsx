@@ -115,6 +115,7 @@ const NftSettings = Loadable(lazy(() => import('../pages/admin/NftSettings')));
 const About = Loadable(lazy(() => import('../pages/home/About')));
 const Terms = Loadable(lazy(() => import('../pages/home/Terms')));
 const PrivacyPolicy = Loadable(lazy(() => import('../pages/home/PrivacyPolicy')));
+const Faqs = Loadable(lazy(() => import('../pages/home/Faqs')));
 const ContactUs = Loadable(lazy(() => import('../pages/home/ContactUs')));
 
 const Root = Loadable(lazy(() => import('../pages/home/Root')));
@@ -147,6 +148,7 @@ export default function Router() {
           { path: "about", element: <About /> },
           { path: "terms", element: <Terms /> },
           { path: "privacy-policy", element: <PrivacyPolicy /> },
+          { path: "faqs", element: <Faqs /> },
           { path: "contact-us", element: <ContactUs /> },
         ],
       },
